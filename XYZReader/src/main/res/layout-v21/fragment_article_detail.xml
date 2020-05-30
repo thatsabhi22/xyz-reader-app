@@ -32,6 +32,11 @@
                     android:scaleType="centerCrop"
                     android:contentDescription="@string/toolbar_image_description"/>
 
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gradient_scrim" />
+
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbarDetail"
                     android:layout_width="match_parent"
@@ -66,6 +71,7 @@
 
                 <TextView
                     android:id="@+id/article_body"
+                    tools:text="{{Article Body}}"
                     style="?android:attr/textAppearanceMedium"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
