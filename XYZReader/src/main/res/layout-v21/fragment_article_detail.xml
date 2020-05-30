@@ -15,6 +15,7 @@
             android:id="@+id/appbarlayout"
             android:layout_width="match_parent"
             android:layout_height="250dp"
+            android:elevation="4dp"
             android:theme="@style/AppTheme.AppBarOverlay">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -83,6 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
+        android:elevation="6dp"
         android:layout_margin="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
         app:srcCompat="@drawable/ic_share" />

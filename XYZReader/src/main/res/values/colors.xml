@@ -25,4 +25,8 @@
     <color name="black">#000000</color>
     <color name="photo_placeholder">#ccc</color>
 
+    <color name="refresh_progress_1">@color/colorAccent</color>
+    <color name="refresh_progress_2">@color/colorPrimaryDark</color>
+    <color name="refresh_progress_3">@color/colorPrimary</color>
+
 </resources>
